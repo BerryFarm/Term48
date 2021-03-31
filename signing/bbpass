@@ -9,6 +9,9 @@
 # Important: any symbols need to be escaped according to bash / Makefile rules
 #            e.g. backslashes before symbols "\!" and double dollar signs "\$$"
 
+KEYSTORE  := ./author.p12
+BBIDTOKEN := ./bbidtoken.csk
+
 CNNAME       := ""
 KEYSTOREPASS := ""
 BBPIN        := BLACKBRY

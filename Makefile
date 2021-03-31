@@ -10,7 +10,7 @@ LIBS    	:= -lbps -licui18n -licuuc -lscreen -lm -lfreetype -lclipboard
 LIBS    	+= -lconfig
 
 # Defines
-DEFINES := -D_FORTIFY_SOURCE=2 -D__PLAYBOOK__ -fstack-protector-strong 
+DEFINES := -D_FORTIFY_SOURCE=2 -D__PLAYBOOK__ -fstack-protector-strong
 
 # OpenGL libraries
 LIBPATHS += -L$(QNX_TARGET)/armle-v7/usr/lib
@@ -71,3 +71,10 @@ deploy: package-debug
 launch-debug: deploy
 	blackberry-deploy -debugNative -device $(BBIP) -password $(BBPASS) -launchApp $(BINARY).bar
 	trap '' SIGINT; BINARY_PATH=$(BINARY_PATH) BBIP=$(BBIP) ntoarm-gdb -x scripts/gdb-debug-setup.py
+
+package-release: $(BINARY)
+	blackberry-nativepackager -package $(BINARY).bar bar-descriptor.xml
+
+sign: package-release
+	blackberry-signer -bbidtoken ./signing/$(BBIDTOKEN) -storepass $(KEYSTOREPASS) -keystore ./signing/$(KEYSTORE) $(BINARY).bar
+

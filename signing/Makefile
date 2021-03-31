@@ -1,7 +1,5 @@
 include ./bbpass
 
-KEYSTORE   := ./author.p12
-BBIDTOKEN  := ./bbidtoken.csk
 DEBUGTOKEN := ./debugtoken.bar
 SSHKEY     := ./ssh-key
 

@@ -45,6 +45,10 @@ As this is a work in progress, pull requests or feature requests are welcome. Pl
 
 Important: any symbols need to be escaped according to bash / Makefile rules e.g. backslashes before symbols `\!` and double dollar signs `\$$`.
 
+## Signing the release
+
+To distribute Term48, you need to sign the application bar with BlackBerry. To do that, run `make sign`.
+
 # Debugging with GDB
 
 To connect to the target device and enable debug tools such as GDB, the `blackberry-connect` tool must be started with the right arguments. For this, two terminals must have the correct `bbndk-env` environment loaded (or run the `make connect` command in the background).
