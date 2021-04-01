@@ -3,9 +3,9 @@ Welcome!
 This file gives an overview of the Term49
 shell, and is broken down into topics:
 
-1. QUICK START 
-2. PREFERENCES 
-3. WHAT'S INSTALLED 
+1. QUICK START
+2. PREFERENCES
+3. WHAT'S INSTALLED
 4. FOR DEVELOPERS
 
 ============================================
@@ -25,20 +25,20 @@ top left corner of the screen will toggle
 metamode on and off. The default metamode
 keys are:
 
-  h: left arrow 
-  j: down arrow 
-  k: up arrow 
-  l: right arrow 
-  t: tab 
-  e: escape 
-  c: control 
-  a: alt 
+  h: left arrow
+  j: down arrow
+  k: up arrow
+  l: right arrow
+  t: tab
+  e: escape
+  c: control
+  a: alt
   v: paste
 
 After pressing a key in metamode you will be
 returned to normal input, excepting the arrow
 keys, which leave you in metamode so you can
-move the cursor around easily. 
+move the cursor around easily.
 
 For example, if you wanted to type Ctrl-C
 (^C), then you would touch the top left
@@ -89,7 +89,7 @@ defaults.
 Each of the preference options and their
 default is shown below:
 
-font_path = "/usr/fonts/font_repository/monotype/cour.ttf";
+font_path = "/usr/fonts/font_repository/monotype/andalemo.ttf";
 /* The path to the Unicode TTF font file to
  * use in the shell. This can be an absolute
  * or relative path. */
@@ -160,7 +160,7 @@ tty_encoding = "UTF-8";
  * International Components for Unicode
  * (ICU) understands. */
 
-metamode_hitbox : { x = 0; y = 0; 
+metamode_hitbox : { x = 0; y = 0;
                     w = 100; h = 100; };
 /* This is the area of the screen that you
  * touch to toggle metamode on and off,
@@ -186,7 +186,7 @@ metamode_keys : (
  * mechanism to send control sequences into
  * the shell, but you could specify any
  * character string you want, including
- * UTF-8 sequences. 
+ * UTF-8 sequences.
  *
  * Term49 supports terminfo aliases for some
  * common escape sequences. Specifically, if
@@ -197,7 +197,7 @@ metamode_keys : (
  * right, left, home, end or the
  * corresponding function key. */
 
-metamode_sticky_keys : ( 
+metamode_sticky_keys : (
     ("k", "kcuu1"),
     ("j", "kcud1"),
     ("l", "kcuf1"),
@@ -207,20 +207,20 @@ metamode_sticky_keys : (
  * metamode on afterwards, so you can press
  * another metamode key immediately. */
 
-metamode_func_keys : ( 
+metamode_func_keys : (
     ("a", "alt_down"),
     ("c", "ctrl_down"),
     ("s", "rescreen"),
     ("v", "paste_clipboard")
   );
-/* These keys map to special functions in 
+/* These keys map to special functions in
    Term49:
 
   alt_down: Will 'hold down' the alt key and
   send it as a modifier with the next
-  keypress.  
+  keypress.
 
-  ctrl_down: Will 'hold down' the ctrl key.  
+  ctrl_down: Will 'hold down' the ctrl key.
 
   rescreen: Will reinitialize the screen
   surface and fonts, including font size. You
@@ -230,7 +230,7 @@ metamode_func_keys : (
   paste_clipboard: Will paste the contents of
   the system keyboard. Handy for pasting URLs
   into the shell. Note that no character
-  encoding or conversion will be done. 
+  encoding or conversion will be done.
 */
 
 rescreen_on_symmenu = true;
@@ -248,7 +248,7 @@ main_symmenu : ( (
     ("j", "&"),
     ("k", "'"),
     ("l", "\"")
-  ), 
+  ),
   (
     ("q", "~"),
     ("w", "`"),
@@ -335,7 +335,7 @@ have 'use' information available (eg. 'use
 flags for the QNX userland tools. You do have
 python so you can get some work done with
 that. You can edit files with elvis, which is
-like vi. 
+like vi.
 
 The default version of ksh is quite old, so
 Term49 bundles mksh, which is better in
@@ -371,7 +371,7 @@ https://github.com/mordak/Term49
 
 If you find a bug, missing feature, or
 something else, feel free to bring it up on
-github. Pull requests are welcome. 
+github. Pull requests are welcome.
 
 Adding Programs to the Userland
 

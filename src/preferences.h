@@ -38,7 +38,7 @@
 
 static int PREFS_VERSION = 9;
 
-#define DEFAULT_FONT_PATH "/usr/fonts/font_repository/monotype/cour.ttf"
+#define DEFAULT_FONT_PATH "/usr/fonts/font_repository/monotype/andalemo.ttf"
 #define DEFAULT_FONT_SIZE 24//40
 #define DEFAULT_TEXT_COLOR (int[]){255, 255, 255}
 #define DEFAULT_BACKGROUND_COLOR (int[]){0, 0, 0}

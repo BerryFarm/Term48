@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,11 +12,11 @@
    height="144"
    id="svg2985"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="term49144x144.png"
-   inkscape:export-filename="/home/todd/bbpb-sdk-workspace/Term49/icons/term4986x86.png"
-   inkscape:export-xdpi="53.75"
-   inkscape:export-ydpi="53.75">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="term49144x144.svg"
+   inkscape:export-filename="/home/vaskas/Code/berrymuch/tmp/Term48/icons/term4986x86.png"
+   inkscape:export-xdpi="57.333332"
+   inkscape:export-ydpi="57.333332">
   <defs
      id="defs2987">
     <linearGradient
@@ -131,19 +129,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="73.53407"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="39.151003"
      inkscape:cy="70.946168"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
      inkscape:grid-bbox="true"
      objecttolerance="10000"
-     inkscape:window-width="1375"
-     inkscape:window-height="876"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata2990">
     <rdf:RDF>
@@ -152,7 +151,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -179,7 +178,8 @@
            height="43.5"
            x="20.25"
            y="25.25" /></flowRegion><flowPara
-         id="flowPara3775">t</flowPara></flowRoot>    <rect
+         id="flowPara3775">t</flowPara></flowRoot>
+    <rect
        style="fill:url(#linearGradient2999);fill-opacity:1;stroke:#000000;stroke-width:9.896;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2991"
        width="114.10423"
@@ -188,28 +188,28 @@
        y="-60.052105" />
     <text
        xml:space="preserve"
-       style="font-size:39.99989319px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00ff00;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;line-height:125%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00ff00;fill-opacity:1;stroke:none"
        x="20.240061"
        y="-20.479948"
        id="text3777"
-       sodipodi:linespacing="125%"
-       transform="scale(0.99999743,1.0000026)"><tspan
+       transform="scale(0.99999743)"><tspan
          sodipodi:role="line"
          id="tspan3779"
          x="20.240061"
-         y="-20.479948">term</tspan></text>
+         y="-20.479948"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, '">term</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:39.99983597px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00ff00;fill-opacity:1;stroke:none;font-family:Courier 10 Pitch;-inkscape-font-specification:Courier 10 Pitch"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9998px;line-height:125%;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00ff00;fill-opacity:1;stroke:none"
        x="78.483116"
        y="32.52948"
        id="text3781"
-       sodipodi:linespacing="125%"
        transform="scale(0.97557288,1.0250387)"><tspan
          sodipodi:role="line"
          id="tspan3783"
          x="78.483116"
-         y="32.52948">48</tspan></text>
+         y="32.52948"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, '">49</tspan></text>
     <rect
        style="fill:#272727;fill-opacity:1;stroke:#545454;stroke-width:0.59781218;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3900-5"
