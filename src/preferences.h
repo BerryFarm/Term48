@@ -28,8 +28,8 @@
 #include "symmenu.h"
 #include "SDL.h"
 
-#define PREFS_FILE_PATH ".term48rc"
-#define PREFS_FILE_BACKUP ".term48rc-old"
+#define PREFS_FILE_PATH ".term49rc"
+#define PREFS_FILE_BACKUP ".term49rc-old"
 #define README_FILE_PATH "../app/native/README"
 #define README45_FILE_PATH "../app/native/README45"
 

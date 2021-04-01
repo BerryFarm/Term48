@@ -13,37 +13,37 @@
    -->
 
 <qnx xmlns="http://www.qnx.com/schemas/application/1.0">
-    <id>com.example.Term48_dev</id>
+    <id>com.example.Term49</id>
     <asset path="share/terminfo">terminfo</asset>
     <asset path="share/root">root</asset>
     <asset path="share/NOTICE">NOTICE</asset>
     <asset path="share/LICENSE">LICENSE</asset>
     <asset path="share/README">README</asset>
     <asset path="share/README45">README45</asset>
-    <asset path="icons/term4886x86.png">term4886x86.png</asset>
-    <asset path="icons/term4890x90.png">term4890x90.png</asset>
-    <asset path="icons/term4896x96.png">term4896x96.png</asset>
-    <asset path="icons/term48110x110.png">term48110x110.png</asset>
-    <asset path="icons/term48144x144.png">term48144x144.png</asset>
+    <asset path="icons/term4986x86.png">term4986x86.png</asset>
+    <asset path="icons/term4990x90.png">term4990x90.png</asset>
+    <asset path="icons/term4996x96.png">term4996x96.png</asset>
+    <asset path="icons/term49110x110.png">term49110x110.png</asset>
+    <asset path="icons/term49144x144.png">term49144x144.png</asset>
     
     <asset path="external/lib/libconfig.so" type="Qnx/Elf">lib/libconfig.so.11</asset>
     <asset path="external/lib/libSDL12.so" type="Qnx/Elf">lib/libSDL12.so</asset>
     <asset path="external/lib/libTouchControlOverlay.so" type="Qnx/Elf">lib/libTouchControlOverlay.so</asset>
     <configuration name="Device-Debug">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="Device-Debug/Term48-dev" entry="true" type="Qnx/Elf">Term48-dev</asset>
+       <asset path="Device-Debug/Term49" entry="true" type="Qnx/Elf">Term49</asset>
     </configuration>
     <configuration name="Device-Release">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="Device-Release/Term48-dev" entry="true" type="Qnx/Elf">Term48-dev</asset>
+       <asset path="Device-Release/Term49" entry="true" type="Qnx/Elf">Term49</asset>
     </configuration>
 
-    <name>Term48-dev</name>
+    <name>Term49</name>
     <versionNumber>1.0.0</versionNumber>
     <buildId>1</buildId>
 
     <!-- May have multiple values for each language. See samples or xsd schema file. -->
-    <description>The Term48-dev application</description>
+    <description>The Term49 application</description>
 
     <!--  Must match the developer name of your developer certificate. -->
     <author>Package-Author</author>
@@ -56,11 +56,11 @@
     </initialWindow>
 
     <icon>
-      <image>term4886x86.png</image>
-      <image>term4890x90.png</image>
-      <image>term4896x96.png</image>
-      <image>term48110x110.png</image>
-      <image>term48144x144.png</image>
+      <image>term4986x86.png</image>
+      <image>term4990x90.png</image>
+      <image>term4996x96.png</image>
+      <image>term49110x110.png</image>
+      <image>term49144x144.png</image>
     </icon>
 
     <!-- Request permission to execute native code.  Required for native applications. -->

@@ -1,6 +1,6 @@
 Welcome!
 
-This file gives an overview of the Term48 shell, and is
+This file gives an overview of the Term49 shell, and is
 broken down into topics:
 
 1. QUICK START 
@@ -64,13 +64,13 @@ The metamode keys are all configurable, as described below.
 
 2. PREFERENCES
 
-Preferences are read from the .term48rc file in $HOME. If
+Preferences are read from the .term49rc file in $HOME. If
 this file does not exist at startup it will be created at
 launch time with the default settings (along with this
-README). Term48 uses libconfig for preferences, so the
-syntax of the .term48rc file is as per libconfig. If there
+README). Term49 uses libconfig for preferences, so the
+syntax of the .term49rc file is as per libconfig. If there
 is an error reading the preference file it will be ignored
-and Term48 will launch with the defaults.
+and Term49 will launch with the defaults.
 
 Each of the preference options and their default is shown
 below:
@@ -80,7 +80,7 @@ font_path = "/usr/fonts/font_repository/monotype/cour.ttf";
  * shell. This can be an absolute or relative path. */
 
 font_size = 16;
-/* The font size for the shell. Term48 will try to guess a
+/* The font size for the shell. Term49 will try to guess a
  * reasonable size for your screen, but otherwise
  * defaults to this value. */
 
@@ -93,7 +93,7 @@ background_color = [0, 0, 0];
 /* The background color, in RGB format. */
 
 screen_idle_awake = false;
-/* If set to true, Term48 will force the screen to stay
+/* If set to true, Term49 will force the screen to stay
  * awake when idle instead of dimming and eventually
  * turning off as usual. */
 
@@ -115,7 +115,7 @@ metamode_doubletap_delay = 500000000;
 
 keyhold_actions = true;
 /* Enables special actions when holding down a key. By
- * default, Term48 will upcase letters if you hold them, and
+ * default, Term49 will upcase letters if you hold them, and
  * will toggle metamode on if you hold space. */
 
 keyhold_actions_exempt = [KEYCODE_BACKSPACE,KEYCODE_RETURN];
@@ -127,7 +127,7 @@ metamode_hold_key = 32;
  * toggle metamode on. Defaults to KEYCODE_SPACE. */
 
 tty_encoding = "UTF-8";
-/* Term48 uses 16 bit Unicode internally, but when doing IO
+/* Term49 uses 16 bit Unicode internally, but when doing IO
  * with the tty / shell, will convert between Unicode and
  * the tty_encoding. Defaults to UTF-8, but can be any
  * encoding that the International Components for Unicode
@@ -150,12 +150,12 @@ metamode_keys : (
  * specified string into the shell and then turn off
  * metamode. Strings are read according to the rules for
  * string parsing in libconfig. You can specify hex
- * characters using \x and exactly two characters. Term48
+ * characters using \x and exactly two characters. Term49
  * uses this mechanism to send control sequences into the
  * shell, but you could specify any character string you
  * want, including UTF-8 sequences. 
  * 
- * Term48 supports terminfo aliases for some common escape
+ * Term49 supports terminfo aliases for some common escape
  * sequences. Specifically, if a metamode key is set to
  * one of kcuu1, kcud1, kcuf1, kcub1, khome, kend, or
  * kf1 through kf12, then the correct escape sequence will
@@ -178,7 +178,7 @@ metamode_func_keys : (
     ("s", "rescreen"),
     ("v", "paste_clipboard")
   );
-/* These keys map to special functions in Term48:
+/* These keys map to special functions in Term49:
   
   alt_down: Will 'hold down' the alt key and send it as a
   modifier with the next keypress.  
@@ -264,8 +264,8 @@ allow_resize_columns = false;
 
 prefs_version = <int>
 /* This is the current version of the preferences file,
- * according to Term48. If it is different than the app
- * version, then Term48 will update the preferences file to
+ * according to Term49. If it is different than the app
+ * version, then Term49 will update the preferences file to
  * the new version. You don't need to worry about this. */
 
 ===========================================================
@@ -281,9 +281,9 @@ out with the flags for the QNX userland tools. You do have
 python so you can get some work done with that. You can edit
 files with elvis, which is like vi. 
 
-The default version of ksh is quite old, so Term48 bundles
+The default version of ksh is quite old, so Term49 bundles
 mksh, which is better in general and much better about
-unicode in particular. Term48 also bundles ssh, scp, sftp
+unicode in particular. Term49 also bundles ssh, scp, sftp
 and ssh-keygen, due to popular demand. 
 
 It is possible to install other programs and round out the
@@ -293,9 +293,9 @@ userland, as described below in FOR DEVELOPERS.
 
 4. FOR DEVELOPERS
 
-Term48 is Open Source
+Term49 is Open Source
 
-Term48 is a 'from scratch' terminal emulator in that it is
+Term49 is a 'from scratch' terminal emulator in that it is
 not a port of another program. It uses SDL to draw to the
 screen, freetype to render fonts, libconfig to manage
 preferences, ICU to convert between character encodings,
@@ -303,9 +303,9 @@ and implements (parts of) the xterm specification. It is
 not by any means perfect, and will certainly have bugs or
 missing features. Because the author enjoyed access to so
 many high quality libraries that made the development of
-Term48 significantly easier, Term48 is open source:
+Term49 significantly easier, Term49 is open source:
 
-https://github.com/mordak/Term48
+https://github.com/mordak/Term49
 
 If you find a bug, missing feature, or something else, feel
 free to bring it up on github. Pull requests are welcome. 
@@ -330,7 +330,7 @@ This has been tested with a Linux (ubuntu) build machine
 and a Passport target. Again, feel free to use github to
 contribute or raise issues. In the long term the goal is to
 port some kind of existing package management system and
-bundle it with Term48, but we're not there yet.
+bundle it with Term49, but we're not there yet.
 
 Happy hacking!
 
