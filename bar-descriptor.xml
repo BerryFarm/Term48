@@ -13,7 +13,7 @@
    -->
 
 <qnx xmlns="http://www.qnx.com/schemas/application/1.0">
-    <id>com.example.Term48_dev</id>
+    <id>com.example.Term49</id>
     <asset path="share/terminfo">terminfo</asset>
     <asset path="share/root">root</asset>
     <asset path="share/NOTICE">NOTICE</asset>
@@ -31,19 +31,19 @@
     <asset path="external/lib/libTouchControlOverlay.so" type="Qnx/Elf">lib/libTouchControlOverlay.so</asset>
     <configuration name="Device-Debug">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="Device-Debug/Term48-dev" entry="true" type="Qnx/Elf">Term48-dev</asset>
+       <asset path="Device-Debug/Term49" entry="true" type="Qnx/Elf">Term49</asset>
     </configuration>
     <configuration name="Device-Release">
        <platformArchitecture>armle-v7</platformArchitecture>
-       <asset path="Device-Release/Term48-dev" entry="true" type="Qnx/Elf">Term48-dev</asset>
+       <asset path="Device-Release/Term49" entry="true" type="Qnx/Elf">Term49</asset>
     </configuration>
 
-    <name>Term48-dev</name>
+    <name>Term49</name>
     <versionNumber>1.0.0</versionNumber>
     <buildId>1</buildId>
 
     <!-- May have multiple values for each language. See samples or xsd schema file. -->
-    <description>The Term48-dev application</description>
+    <description>The Term49 application</description>
 
     <!--  Must match the developer name of your developer certificate. -->
     <author>Package-Author</author>

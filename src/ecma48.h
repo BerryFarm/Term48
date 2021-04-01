@@ -21,7 +21,7 @@
 #define SECDA "\033[>1;95;0c" /* VT220 */
 
 #define DSROK "\033[0n"
-#define ANSWERBACK "Term48"
+#define ANSWERBACK "Term49"
 #define OUTBUF_LEN 30
 
 void ecma48_init();

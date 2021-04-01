@@ -27,7 +27,7 @@ LDFLAGS   	:= $(LIBPATHS) $(LIBS)
 LDOPTS    	:= -Wl,-z,relro -Wl,-z,now
 
 ASSET      	:= Device-Debug
-BINARY     	:= Term48-dev
+BINARY     	:= Term49
 BINARY_PATH	:= $(ASSET)/$(BINARY)
 
 SRCS := $(wildcard src/*.c)
