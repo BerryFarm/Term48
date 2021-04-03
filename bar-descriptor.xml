@@ -67,6 +67,31 @@
     <permission system="true">run_native</permission>
     <permission>access_shared</permission>
     <permission>run_when_backgrounded</permission>
+    <permission>bbm_connect</permission>
+    <permission>access_pimdomain_calendars</permission>
+    <permission>use_camera</permission>
+    <permission>use_camera_desktop</permission>
+    <permission>access_pimdomain_contacts</permission>
+    <permission>read_device_identifying_information</permission>
+    <permission>use_gamepad</permission>
+    <permission>access_pimdomain_messages</permission>
+    <permission>access_internet</permission>
+    <permission>access_location_services</permission>
+    <permission>record_audio</permission>
+    <permission>read_personally_identifiable_information</permission>
+    <permission>access_pimdomain_notebooks</permission>
+    <permission>access_notify_settings_control</permission>
+    <permission>access_phone</permission>
+    <permission>read_phonecall_details</permission>
+    <permission>access_pimdomain_calllogs</permission>
+    <permission>control_phone</permission>
+    <permission>post_notification</permission>
+    <permission system="true">_sys_use_consumer_push</permission>
+    <permission system="true">_sys_run_headless</permission>
+    <permission system="true">_sys_headless_nostop</permission>
+    <permission>access_sms_mms</permission>
+    <permission>access_wifi_public</permission>
+
 
     <!-- Ensure that shared libraries in the package are found at run-time. -->
     <env var="LD_LIBRARY_PATH" value="app/native/lib"/>
