@@ -1,0 +1,22 @@
+
+
+add "help" for Term49 / Berrymuch under mksh (other shells might already have an "help" command)
+
+
+
+add vim, curl, rsync, wget, grep, xargs, man
+
+add git+tig, coreutils, diffutils, findutils, patch, openssl
+
+add nnn, lynx, taskwarrior, calcurse
+
+
+
+# this is ** highly wanted **, anyone ready to work on this ?
+add audio player  mp3/flac/wav audio player working with Term48/49
+
+
+
+add Makefile and commands to fetch a single/set of package(s) from any known repository (via: git, rsync, other protocol ?)
+
+
